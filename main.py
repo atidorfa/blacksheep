@@ -1,6 +1,6 @@
-
 def blacksheep():
-    print('MEE-EEH')
+    print("MEE-EEH")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     blacksheep()
