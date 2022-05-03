@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 black = "*"
+isort = "*"
+flake8 = "*"
+pre-commit = "*"
 
 [dev-packages]
 
