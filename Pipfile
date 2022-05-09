@@ -8,6 +8,8 @@ black = "*"
 isort = "*"
 flake8 = "*"
 pre-commit = "*"
+opencv-python = "*"
+mediapipe = "*"
 
 [dev-packages]
 
