@@ -19,6 +19,7 @@ Una vez corriendo el programa escribir cualquier de los siguientes comandos:
 \wa\ ---> web.whatsapp.com/
 \ig\ ---> www.instagram.com/
 \gh\ ---> www.github.com/
+```
 
 ## Code
 [Keeping python code clean with pre-commit hooks: black, flake8 and isort](https://rohitgupta.xyz/blog/keeping-python-code-clean-with-pre-commit-hooks-black-flake8-and-isort/)
