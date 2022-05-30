@@ -23,6 +23,8 @@ def check_command(command):
         web.open_github()
     if command[2:] == "opgg":
         web.open_opgg()
+    if command[2:] == "nt":
+        web.open_notion()
     if command[2:] == "fit":
         web.open_fitness()
 
