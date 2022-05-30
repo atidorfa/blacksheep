@@ -11,8 +11,8 @@ def check_command(command):
         web.open_google()
     if command[2:] == "yt":
         web.open_youtube()
-    if command[2:] == "yt":
-        web.open_youtube()
+    if command[2:] == "lk":
+        web.open_linkedin()
 
 
 def clean_command():

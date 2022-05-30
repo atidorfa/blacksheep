@@ -9,3 +9,7 @@ def open_youtube():
     webbrowser.open(
         "https://www.youtube.com/watch?v=mqfzsbV0lUs&ab_channel=GYMBODYMOTIVATION"
     )
+
+
+def open_linkedin():
+    webbrowser.open("https://www.linkedin.com/feed/")
