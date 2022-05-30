@@ -10,9 +10,7 @@ def open_gmail():
 
 
 def open_youtube():
-    webbrowser.open(
-        "https://www.youtube.com/watch?v=mqfzsbV0lUs&ab_channel=GYMBODYMOTIVATION"
-    )
+    webbrowser.open("https://www.youtube.com/")
 
 
 def open_linkedin():
@@ -21,3 +19,17 @@ def open_linkedin():
 
 def open_opgg():
     webbrowser.open("https://las.op.gg/")
+
+
+def open_whatsapp():
+    webbrowser.open("https://web.whatsapp.com/")
+
+
+def open_instagram():
+    webbrowser.open("https://www.instagram.com/")
+
+
+def open_fitness():
+    webbrowser.open(
+        "https://www.youtube.com/watch?v=mqfzsbV0lUs&ab_channel=GYMBODYMOTIVATION"
+    )
