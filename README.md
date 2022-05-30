@@ -13,10 +13,12 @@ Para correr el programa keyboard.py
 
 Una vez corriendo el programa escribir cualquier de los siguientes comandos:
 ```
-|gl| ---> www.google.com
-|yt| ---> www.youtube.com
-|lk| ---> www.linkedin.com\feed
-```
+\gl\ ---> www.google.com
+\yt\ ---> www.youtube.com
+\lk\ ---> www.linkedin.com/feed
+\wa\ ---> web.whatsapp.com/
+\ig\ ---> www.instagram.com/
+\gh\ ---> www.github.com/
 
 ## Code
 [Keeping python code clean with pre-commit hooks: black, flake8 and isort](https://rohitgupta.xyz/blog/keeping-python-code-clean-with-pre-commit-hooks-black-flake8-and-isort/)
