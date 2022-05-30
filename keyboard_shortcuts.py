@@ -19,6 +19,8 @@ def check_command(command):
         web.open_whatsapp()
     if command[2:] == "ig":
         web.open_instagram()
+    if command[2:] == "gh":
+        web.open_github()
     if command[2:] == "opgg":
         web.open_opgg()
     if command[2:] == "fit":

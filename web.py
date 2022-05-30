@@ -17,16 +17,20 @@ def open_linkedin():
     webbrowser.open("https://www.linkedin.com/feed/")
 
 
-def open_opgg():
-    webbrowser.open("https://las.op.gg/")
-
-
 def open_whatsapp():
     webbrowser.open("https://web.whatsapp.com/")
 
 
 def open_instagram():
     webbrowser.open("https://www.instagram.com/")
+
+
+def open_github():
+    webbrowser.open("https://www.github.com/")
+
+
+def open_opgg():
+    webbrowser.open("https://las.op.gg/")
 
 
 def open_fitness():
