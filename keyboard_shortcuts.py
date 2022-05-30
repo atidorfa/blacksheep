@@ -13,6 +13,10 @@ def check_command(command):
         web.open_youtube()
     if command[2:] == "lk":
         web.open_linkedin()
+    if command[2:] == "opgg":
+        web.open_opgg()
+    if command[2:] == "gmail":
+        web.open_gmail()
 
 
 def clean_command():
