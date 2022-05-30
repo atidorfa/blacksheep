@@ -33,6 +33,10 @@ def open_opgg():
     webbrowser.open("https://las.op.gg/")
 
 
+def open_notion():
+    webbrowser.open("https://www.notion.so/")
+
+
 def open_fitness():
     webbrowser.open(
         "https://www.youtube.com/watch?v=mqfzsbV0lUs&ab_channel=GYMBODYMOTIVATION"
