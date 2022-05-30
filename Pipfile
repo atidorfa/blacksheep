@@ -10,6 +10,7 @@ flake8 = "*"
 pre-commit = "*"
 opencv-python = "*"
 mediapipe = "*"
+pynput = "*"
 
 [dev-packages]
 

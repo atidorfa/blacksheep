@@ -1,9 +1,11 @@
 import os
+import sys
 import time
 
 import cv2
 
 import HandTrackingModule as htm
+import web
 
 camera_port = 0
 cam_width, cam_height = 640, 480
@@ -49,6 +51,11 @@ while True:
                 fingers.append(0)
 
         total_fingers = fingers.count(1)
+
+        # Open Youtube program
+        if total_fingers == 5:
+            web.open_youtube()
+            sys.exit()
 
         # image output
         offset = 8  # margin offset
