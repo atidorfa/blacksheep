@@ -4,12 +4,11 @@ import keyboard_shortcuts
 
 keys = []
 count = 0
+command = ""
 
 
 def on_press(key):
     print("{0} pressed".format(key))
-    if key == "|":
-        print("||||||||||||||||||||||||||||||||||||||||||||||||")
     write_key(key)
 
 
@@ -19,11 +18,25 @@ def on_release(key):
 
 
 def write_key(key):
-    global keys, count
+    global keys, count, command
+    try:
+        if key.char == "\\":
+
+            for k in keys:
+                c = str(k).replace("'", "")
+                command += c
+
+            keyboard_shortcuts.check_command(command)
+            command = ""
+            keys = keyboard_shortcuts.clean_command()
+            count = 0
+    except AttributeError:
+        pass
+
     keys.append(key)
     count += 1
+    print(keys, count)
     if count >= 10:
-        write_file(keys)
         keys = keyboard_shortcuts.clean_command()
         count = 0
 
