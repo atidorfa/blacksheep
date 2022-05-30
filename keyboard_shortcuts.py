@@ -1,11 +1,12 @@
 import web
 
-i = ""
-while i != "quit|":
-    i = input("")
-    print(i)
 
-    if i == "gl|":
+def check_command(command):
+    if command == "|gl|":
         web.open_google()
-    if i == "yt|":
+    if command == "|yt|":
         web.open_youtube()
+
+
+def clean_command():
+    return ["|"]
