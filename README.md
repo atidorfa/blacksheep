@@ -21,6 +21,10 @@ Una vez corriendo el programa escribir cualquier de los siguientes comandos:
 \gh\ ---> www.github.com/
 ```
 
+## Windows Defender
+[skip for keyboard.py](https://support.microsoft.com/en-us/windows/add-an-exclusion-to-windows-security-811816c0-4dfd-af4a-47e4-c301afe13b26#:~:text=Go%20to%20Start%20%3E%20Settings%20%3E%20Update,%2C%20file%20types%2C%20or%20process.)
+
+
 ## Code
 [Keeping python code clean with pre-commit hooks: black, flake8 and isort](https://rohitgupta.xyz/blog/keeping-python-code-clean-with-pre-commit-hooks-black-flake8-and-isort/)
 
