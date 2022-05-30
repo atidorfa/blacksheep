@@ -19,6 +19,7 @@ Una vez corriendo el programa escribir cualquier de los siguientes comandos:
 \wa\ ---> web.whatsapp.com/
 \ig\ ---> www.instagram.com/
 \gh\ ---> www.github.com/
+\no\ ---> www.notion.so/
 ```
 
 ## Windows Defender
