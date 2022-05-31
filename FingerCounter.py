@@ -52,10 +52,10 @@ while True:
 
         total_fingers = fingers.count(1)
 
-        # Open Youtube program
-        if total_fingers == 5:
-            web.open_fitness()
-            sys.exit()
+        # Open fitness program
+        # if total_fingers == 5:
+        #     web.open_fitness()
+        #     sys.exit()
 
         # image output
         offset = 8  # margin offset
@@ -79,4 +79,4 @@ while True:
     cv2.waitKey(1)  # 1ms delay so we can see our img
 
 
-# cv2.destroyAllWindows()
+cv2.destroyAllWindows()
