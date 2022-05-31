@@ -2,7 +2,9 @@
 
 The python operative system
 
-![alt text](https://github.com/atidorfa/blacksheep/blob/master/os_blackshep.png)
+![os_blackshep](https://github.com/atidorfa/blacksheep/blob/master/os_blackshep.png)
+
+For more documentation click [here].(https://www.google.com)
 
 ## Enviroment config + run.
 
@@ -10,7 +12,7 @@ Para activar el entorno virtual ```pipenv shell```
 
 Para installar todas las dependencias y librerias python ```pipenv install```
 
-Para correr el programa keyboard.py ```python keyboard.py```
+Para correr el programa keyboard.py ```python main.py```
 
 Una vez corriendo el programa escribir cualquier de los siguientes comandos:
 ```
