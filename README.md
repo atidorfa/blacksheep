@@ -2,7 +2,8 @@
 
 The python operative system
 
-![alt text](https://github.com/atidorfa/blacksheep/blob/master/os_blackshep.png)
+![os_blackshep](https://github.com/atidorfa/blacksheep/blob/master/os_blackshep.png)
+For more documentation click [here](https://github.com/atidorfa/blacksheep).
 
 ## Enviroment config + run.
 
@@ -10,7 +11,7 @@ Para activar el entorno virtual ```pipenv shell```
 
 Para installar todas las dependencias y librerias python ```pipenv install```
 
-Para correr el programa keyboard.py ```python keyboard.py```
+Para correr el programa keyboard.py ```python main.py```
 
 Una vez corriendo el programa escribir cualquier de los siguientes comandos:
 ```
@@ -24,7 +25,7 @@ Una vez corriendo el programa escribir cualquier de los siguientes comandos:
 ```
 
 ## Windows Defender
-[skip for keyboard.py](https://support.microsoft.com/en-us/windows/add-an-exclusion-to-windows-security-811816c0-4dfd-af4a-47e4-c301afe13b26#:~:text=Go%20to%20Start%20%3E%20Settings%20%3E%20Update,%2C%20file%20types%2C%20or%20process.)
+You have to skip some windows defense system for input recognition: [skip for keyboard.py](https://support.microsoft.com/en-us/windows/add-an-exclusion-to-windows-security-811816c0-4dfd-af4a-47e4-c301afe13b26#:~:text=Go%20to%20Start%20%3E%20Settings%20%3E%20Update,%2C%20file%20types%2C%20or%20process.)
 
 
 ## Code
