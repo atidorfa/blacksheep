@@ -1,6 +1,7 @@
 # blacksheep
 
 The python operative system
+![alt text](https://github.com/[atidorfa]/[blacksheep]/blob/[main]/os_blacksheep.png?raw=true)
 
 ## Enviroment config + run.
 
