@@ -1,15 +1,14 @@
 # blacksheep
 
+The python operative system
+
 ## Enviroment config + run.
 
-Para activar el entorno virtual
-```pipenv shell```
+Para activar el entorno virtual ```pipenv shell```
 
-Para installar todas las dependencias y librerias python
-```pipenv install```
+Para installar todas las dependencias y librerias python ```pipenv install```
 
-Para correr el programa keyboard.py
-```python keyboard.py```
+Para correr el programa keyboard.py ```python keyboard.py```
 
 Una vez corriendo el programa escribir cualquier de los siguientes comandos:
 ```
