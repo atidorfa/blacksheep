@@ -1,5 +1,6 @@
 import sys
 
+import animals
 import web
 
 
@@ -29,6 +30,12 @@ def check_command(command):
         web.open_notion()
     if command[2:] == "fit":
         web.open_fitness()
+    if command[2:] == "bs":
+        animals.bs()
+    if command[2:] == "gf":
+        animals.gf()
+    if command[2:] == "ml":
+        web.open_meli()
     if command[2:] == "quit":
         sys.exit()
 

@@ -1,5 +1,3 @@
-from reprlib import recursive_repr
-
 import keyboard
 
 user = "river"

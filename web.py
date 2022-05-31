@@ -37,6 +37,10 @@ def open_notion():
     webbrowser.open("https://www.notion.so/Blacksheep-4e1e36b206b643c7bacf8ba1b90fe299")
 
 
+def open_meli():
+    webbrowser.open("https://www.mercadolibre.com")
+
+
 def open_fitness():
     webbrowser.open(
         "https://www.youtube.com/watch?v=mqfzsbV0lUs&ab_channel=GYMBODYMOTIVATION"
