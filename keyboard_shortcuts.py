@@ -1,3 +1,5 @@
+import sys
+
 import web
 
 
@@ -27,6 +29,8 @@ def check_command(command):
         web.open_notion()
     if command[2:] == "fit":
         web.open_fitness()
+    if command[2:] == "quit":
+        sys.exit()
 
 
 def clean_command():
