@@ -1,6 +1,7 @@
 from pynput.keyboard import Key, Listener
 
 import keyboard_shortcuts
+from main import pc, user
 
 keys = []
 count = 0
@@ -8,7 +9,9 @@ command = ""
 
 
 def on_press(key):
+    c = str(key).replace("'", "")
     print("{0} pressed".format(key))
+    print(f"{user}@{pc} $ {c}")
     write_key(key)
 
 
@@ -47,5 +50,6 @@ def write_file(keys):
             f.write(str(k))
 
 
-with Listener(on_press=on_press, on_release=on_release) as listener:
-    listener.join()
+def listen():
+    with Listener(on_press=on_press, on_release=on_release) as listener:
+        listener.join()

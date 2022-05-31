@@ -1,5 +1,15 @@
+from reprlib import recursive_repr
+
+import keyboard
+
+user = "river"
+pc = "atidorfa"
+
+
 def blacksheep():
-    print("MEE-EEH")
+    p = "MEE-EEH"
+    print(p)
+    keyboard.listen()
 
 
 if __name__ == "__main__":
