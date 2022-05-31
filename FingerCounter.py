@@ -54,7 +54,7 @@ while True:
 
         # Open Youtube program
         if total_fingers == 5:
-            web.open_youtube()
+            web.open_fitness()
             sys.exit()
 
         # image output
