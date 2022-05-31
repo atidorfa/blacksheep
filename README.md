@@ -3,8 +3,7 @@
 The python operative system
 
 ![os_blackshep](https://github.com/atidorfa/blacksheep/blob/master/os_blackshep.png)
-
-For more documentation click [here](https://www.google.com)
+For more documentation click [here](https://github.com/atidorfa/blacksheep).
 
 ## Enviroment config + run.
 
