@@ -2,6 +2,8 @@
 
 The python operative system
 
+![alt text](https://github.com/atidorfa/blacksheep/blob/master/os_blackshep.png)
+
 ## Enviroment config + run.
 
 Para activar el entorno virtual ```pipenv shell```
