@@ -2,7 +2,7 @@
 
 The python operative system
 
-![alt text](https://github.com/atidorfa/blacksheep/blob/[main]/os_blackshep.png)
+![alt text](https://github.com/atidorfa/blacksheep/blob/master/os_blackshep.png)
 
 ## Enviroment config + run.
 
