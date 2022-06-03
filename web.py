@@ -10,7 +10,9 @@ def open_gmail():
 
 
 def open_youtube():
-    webbrowser.open("https://www.youtube.com/")
+    webbrowser.open(
+        "https://www.youtube.com/watch?v=135k8MFJ_nM&ab_channel=CapcomBrasil"
+    )
 
 
 def open_linkedin():
@@ -35,10 +37,6 @@ def open_opgg():
 
 def open_notion():
     webbrowser.open("https://www.notion.so/Blacksheep-4e1e36b206b643c7bacf8ba1b90fe299")
-
-
-def open_meli():
-    webbrowser.open("https://www.mercadolibre.com")
 
 
 def open_fitness():

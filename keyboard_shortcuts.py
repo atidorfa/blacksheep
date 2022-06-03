@@ -34,8 +34,8 @@ def check_command(command):
         animals.bs()
     if command[2:] == "gf":
         animals.gf()
-    if command[2:] == "ml":
-        web.open_meli()
+    if command[2:] == "prgm":
+        animals.pyprogram_bs()
     if command[2:] == "quit":
         sys.exit()
 

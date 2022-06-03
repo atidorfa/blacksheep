@@ -12,6 +12,9 @@ opencv-python = "*"
 mediapipe = "*"
 pynput = "*"
 protobuf = "<=3.20.1"
+speechrecognition = "*"
+pyttsx3 = "*"
+pipwin = "*"
 
 [dev-packages]
 
