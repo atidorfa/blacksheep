@@ -1,5 +1,7 @@
 # blacksheep
 
+![os_bs](https://github.com/atidorfa/blacksheep/blob/master/os_bs.png)
+
 The python operative system
 
 ![os_blackshep](https://github.com/atidorfa/blacksheep/blob/master/os_blackshep.png)
