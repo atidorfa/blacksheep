@@ -3,6 +3,7 @@ import speech_recognition as sr
 
 import voice_shortcuts
 
+user = "gonzalo"
 pc = "atidorfa"
 r = sr.Recognizer()
 
@@ -13,32 +14,46 @@ def speaker(text):
     engine.runAndWait()
 
 
-# open .txt as file
-with open("voice.txt", "r") as f:
-    file_data = f.read().splitlines()
+def voice_recognizer():
+    # open .txt as file
+    # with open("voice.txt", "r") as f:
+    #     file_data = f.read().splitlines()
 
-# testing the speaker
-# speaker('hello world!')
-# speaker(file_data)
+    # testing the speaker
+    # speaker('hello world!')
+    # speaker(file_data)
 
-# use microphone as source for input
-mic = sr.Microphone()
-with mic as source2:
-    # wait for a second to lethe recognizer adjust the energy threshold based on the surrounding noise level
-    # print(f"{pc}: Silence please, calibrating noise reduction")
-    # r.adjust_for_ambient_noise(source2, duration=2)
-    # print(f"{pc}: Calibrated, now speak...")
+    # use microphone as source for input
+    mic = sr.Microphone()
+    goal = False
+    while not goal:
+        try:
+            with mic as source2:
+                # wait for a second to let the recognizer adjust the energy threshold based on the surrounding noise level
+                welcome = f"what do u need {user}?"
+                print(f"{pc}: {welcome}")
+                speaker(welcome)
 
-    # listen for the user's input
-    audio2 = r.listen(source2)
+                # ajust noise reduction
+                r.adjust_for_ambient_noise(source2, duration=0.2)
+                print(f"{pc}: ...")
 
-    # using google to recognize audio
-    txt = r.recognize_google(audio2)
-    txt = txt.lower()
+                # listen for the user's input
+                audio2 = r.listen(source2)
 
-    # check commands
-    voice_shortcuts.check_command(txt)
+                # using google to recognize audio
+                txt = r.recognize_google(audio2)
+                txt = txt.lower()
 
-    # speak output
-    print(txt)
-    speaker(txt)
+                # check commands
+                voice_shortcuts.check_command(txt)
+
+                # speak output
+                print(txt)
+                speaker(txt)
+                goal = True
+        # sr.UnknownValueError():
+        except Exception:
+            mic = sr.Microphone()
+            speaker("error")
+            continue

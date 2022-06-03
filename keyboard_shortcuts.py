@@ -1,6 +1,7 @@
 import sys
 
 import animals
+import voice
 import web
 
 
@@ -36,6 +37,8 @@ def check_command(command):
         animals.gf()
     if command[2:] == "prgm":
         animals.pyprogram_bs()
+    if command[2:] == "v":
+        voice.voice_recognizer()
     if command[2:] == "quit":
         sys.exit()
 

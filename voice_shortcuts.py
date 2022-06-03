@@ -2,5 +2,5 @@ import web
 
 
 def check_command(command):
-    if command == "open google":
+    if "google" in command:
         web.open_google()
