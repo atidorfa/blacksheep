@@ -13,3 +13,6 @@ def check_command(command):
         voice.speaker("starting biceps program")
         web.open_fitness()
         biceps.reps()
+    if "youtube" in command:
+        print("starting youtube")
+        web.open_youtube()

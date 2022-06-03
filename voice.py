@@ -42,7 +42,7 @@ def voice_recognizer():
                 audio2 = r.listen(source2)
 
                 # using google to recognize audio
-                txt = r.recognize_google(audio2)
+                txt = r.recognize_google(audio2, language="es-ES")
                 txt = txt.lower()
 
                 # check commands
