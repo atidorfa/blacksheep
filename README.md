@@ -23,7 +23,8 @@ Para correr el programa keyboard.py ```python main.py```
 \gl\ ---> www.google.com
 \yt\ ---> www.youtube.com
 \gh\ ---> www.github.com/
-\v\ ---> Voice shortcuts
+\v\ ---> voice shortcuts
+\q\ ---> quit
 ```
 
 ## Voice shortcuts:
