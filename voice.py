@@ -47,10 +47,6 @@ def voice_recognizer():
 
                 # check commands
                 voice_shortcuts.check_command(txt)
-
-                # speak output
-                print(txt)
-                speaker(txt)
                 goal = True
         # sr.UnknownValueError():
         except Exception:

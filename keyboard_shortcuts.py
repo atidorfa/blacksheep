@@ -1,6 +1,7 @@
 import sys
 
 import animals
+import biceps
 import voice
 import web
 
@@ -39,6 +40,8 @@ def check_command(command):
         animals.pyprogram_bs()
     if command[2:] == "v":
         voice.voice_recognizer()
+    if command[2:] == "biceps":
+        biceps.reps()
     if command[2:] == "quit":
         sys.exit()
 
