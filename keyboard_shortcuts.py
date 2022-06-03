@@ -11,38 +11,39 @@ def log_key(key):
 
 
 def check_command(command):
-    print("command: " + command[2:])
-    if command[2:] == "gl":
+    program = command[2:]
+    print("command: " + program)
+    if program == "gl":
         web.open_google()
-    if command[2:] == "yt":
+    if program == "yt":
         web.open_youtube()
-    if command[2:] == "lk":
+    if program == "lk":
         web.open_linkedin()
-    if command[2:] == "gm":
+    if program == "gm":
         web.open_gmail()
-    if command[2:] == "wa":
+    if program == "wa":
         web.open_whatsapp()
-    if command[2:] == "ig":
+    if program == "ig":
         web.open_instagram()
-    if command[2:] == "gh":
+    if program == "gh":
         web.open_github()
-    if command[2:] == "opgg":
+    if program == "opgg":
         web.open_opgg()
-    if command[2:] == "no":
+    if program == "no":
         web.open_notion()
-    if command[2:] == "fit":
+    if program == "fit":
         web.open_fitness()
-    if command[2:] == "bs":
+    if program == "bs":
         animals.bs()
-    if command[2:] == "gf":
+    if program == "gf":
         animals.gf()
-    if command[2:] == "prgm":
+    if program == "prgm":
         animals.pyprogram_bs()
-    if command[2:] == "v":
+    if program == "v":
         voice.voice_recognizer()
-    if command[2:] == "biceps":
+    if program == "biceps":
         biceps.reps()
-    if command[2:] == "quit":
+    if program == "quit" or program == "q":
         sys.exit()
 
 
