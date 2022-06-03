@@ -15,15 +15,17 @@ Para installar todas las dependencias y librerias python ```pipenv install```
 
 Para correr el programa keyboard.py ```python main.py```
 
-Una vez corriendo el programa escribir cualquier de los siguientes comandos:
+Keyboard shortcuts:
 ```
 \gl\ ---> www.google.com
 \yt\ ---> www.youtube.com
-\lk\ ---> www.linkedin.com/feed
-\wa\ ---> web.whatsapp.com/
-\ig\ ---> www.instagram.com/
 \gh\ ---> www.github.com/
-\no\ ---> www.notion.so/
+\v\ ---> Voice shortcuts
+```
+
+Voice shortcuts:
+```
+(say) * google * ---> www.google.com
 ```
 
 ## Windows Defender
