@@ -6,7 +6,7 @@ The python operative system
 
 For more documentation click [here](https://www.notion.so/Blacksheep-4e1e36b206b643c7bacf8ba1b90fe299).
 
-## Enviroment config + run.
+## Enviroment config + run
 
 Para activar el entorno virtual ```pipenv shell```
 
@@ -18,7 +18,7 @@ Para correr el programa keyboard.py ```python main.py```
 
 ![os_blackshep](https://github.com/atidorfa/blacksheep/blob/master/os_blackshep.png)
 
-# Keyboard shortcuts:
+## Keyboard shortcuts:
 ```
 \gl\ ---> www.google.com
 \yt\ ---> www.youtube.com
@@ -26,7 +26,7 @@ Para correr el programa keyboard.py ```python main.py```
 \v\ ---> Voice shortcuts
 ```
 
-# Voice shortcuts:
+## Voice shortcuts:
 ```
 (say) * google * ---> www.google.com
 ```
