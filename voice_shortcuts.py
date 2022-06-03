@@ -1,3 +1,6 @@
+from matplotlib import animation
+
+import animals
 import biceps
 import voice
 import web
@@ -16,3 +19,5 @@ def check_command(command):
     if "youtube" in command:
         print("starting youtube")
         web.open_youtube()
+    if "trabaj" in command:
+        animals.cat()

@@ -49,7 +49,9 @@ def voice_recognizer():
                 voice_shortcuts.check_command(txt)
                 goal = True
         # sr.UnknownValueError():
-        except Exception:
+        except Exception as e:
             mic = sr.Microphone()
+            print(f"error: {e}")
             speaker("error")
+            goal = True
             continue

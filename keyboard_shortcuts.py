@@ -35,8 +35,8 @@ def check_command(command):
         web.open_fitness()
     if program == "bs":
         animals.bs()
-    if program == "gf":
-        animals.gf()
+    if program == "cat":
+        animals.cat()
     if program == "prgm":
         animals.pyprogram_bs()
     if program == "v":
@@ -45,6 +45,8 @@ def check_command(command):
         biceps.reps()
     if program == "quit" or program == "q":
         sys.exit()
+    if program == "shut" or program == "shutdown":
+        animals.shutdown()
 
 
 def clean_command():
