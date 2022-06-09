@@ -1,6 +1,8 @@
-# Markers in pytest (one of the key features of pytest),
+# module 4 Markers in pytest (one of the key features of pytest),
 # use -m option to run marked tests,
 # pytest -v -m sanity
+
+
 import pytest
 
 # define markers in module level ['warning' if dont remember in pytest.ini]

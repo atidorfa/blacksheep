@@ -1,4 +1,5 @@
-# Skipping tests
+# module 3: how to skip tests
+
 
 import sys
 
