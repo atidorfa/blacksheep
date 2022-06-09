@@ -1,3 +1,5 @@
+# Skipping tests
+
 import sys
 
 import pytest
