@@ -1,4 +1,4 @@
-from pynput.keyboard import Key, Listener
+from pynput.keyboard import Key, KeyCode, Listener
 
 import keyboard_shortcuts
 from main import pc, user
@@ -10,12 +10,8 @@ command = ""
 
 def on_press(key):
     print("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% KEYBOARD %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
-    # print("{0} pressed".format(key))
     print(key)
-
-    # c = str(key).replace("'", "")
     k = "{0}".format(key).replace("'", "")
-
     print(f"{user}@{pc} $ {k}")
     write_key(key)
 
@@ -28,8 +24,7 @@ def on_release(key):
 def write_key(key):
     global keys, count, command
     try:
-        if key.char == "\\":
-
+        if isinstance(key, KeyCode) and key.char is not None and key.char == "\\":
             for k in keys:
                 c = str(k).replace("'", "")
                 command += c
