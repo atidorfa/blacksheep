@@ -17,6 +17,8 @@ pyttsx3 = "*"
 pipwin = "*"
 cvzone = "*"
 pytest = "*"
+pillow = "*"
+pyautogui = "*"
 
 [dev-packages]
 

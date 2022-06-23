@@ -10,6 +10,7 @@ def blacksheep():
     print(p)
     animals.bs()
     keyboard.listen()
+    # mouse.listen()
 
 
 if __name__ == "__main__":

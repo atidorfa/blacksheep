@@ -1,6 +1,6 @@
 import os
-import subprocess
 import time
+import screenshot
 
 
 def bs():
@@ -44,6 +44,21 @@ def shutdown():
     """
     )
     os.system("shutdown -s")
+
+
+def monkey():
+    print("""-={ see no evil }={ hear no evil }={ speak no evil }={ have no fun }=-""")
+    print("""-={ see no evil }={ hear no evil }={ speak no evil }={ have no fun }=-""")
+    print("""-={ see no evil }={ hear no evil }={ speak no evil }={ have no fun }=-""")
+    print("""-={ see no evil }={ hear no evil }={ speak no evil }={ have no fun }=-""")
+    # screenshot.pil_screenshot()
+    screenshot.pil_snapshot()
+
+
+def clean():
+    clear = lambda: os.system('clear')
+    clear()
+    print('LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL')
 
 
 def pyprogram_bs():

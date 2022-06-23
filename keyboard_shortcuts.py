@@ -1,10 +1,9 @@
-import sys
-
 import animals
 import biceps
 import voice
 import web
-
+import sys
+import os
 
 def log_key(key):
     pass
@@ -37,10 +36,15 @@ def check_command(command):
         animals.bs()
     if program == "cat":
         animals.cat()
+    if program == "m":
+        animals.monkey()
     if program == "prgm":
         animals.pyprogram_bs()
     if program == "v":
         voice.voice_recognizer()
+    if program == "l":
+        clear = lambda: os.system('cls')
+        clear()
     if program == "biceps":
         biceps.reps()
     if program == "quit" or program == "q":
