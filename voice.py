@@ -3,6 +3,7 @@ import speech_recognition as sr
 
 import voice_shortcuts
 
+
 user = "gonzalo"
 pc = "atidorfa"
 r = sr.Recognizer()
@@ -55,3 +56,32 @@ def voice_recognizer():
             speaker("error")
             goal = True
             continue
+
+
+def voice_recognizer_neo():
+    mic = sr.Microphone()
+    goal = False
+    while not goal:
+        try:
+            with mic as source2:
+                welcome = "listening"
+                print(f"{pc}: {welcome}")
+                # speaker(welcome)
+
+                # ajust noise reduction
+                r.adjust_for_ambient_noise(source2, duration=0.2)
+                print(f"{pc}: ...")
+
+                # listen for the user's input
+                audio2 = r.listen(source2)
+
+                # using google to recognize audio
+                txt = r.recognize_google(audio2, language="es-ES")
+                txt = txt.lower()
+
+                return txt
+        except Exception as e:
+            print(f"error: {e}")
+            speaker("error")
+            goal = True
+            return "error"

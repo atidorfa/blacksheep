@@ -1,7 +1,8 @@
 import os
 import time
 import screenshot
-
+import neo
+from voice import speaker
 
 def bs():
     print(
@@ -14,6 +15,26 @@ def bs():
           |//   `-,//
     """
     )
+
+
+def parrot(text):
+    print("""
+ ,`````.          _________
+' CiCi  `,       /_  ___   \
+'  ^_^   `.     /@ \/@  \   \
+ ` , . , '  `.. \__/\___/   /
+                 \_\/______/
+                 /     /\\\\\
+                |     |\\\\\\
+                 \      \\\\\\
+                  \______/\\\\     
+            _______ ||_||_______
+           (______(((_(((______(@)
+    """)
+    print("atidorfa: " + text)
+    response = neo.start(text)
+    print(response)
+    speaker(response)
 
 
 def cat():

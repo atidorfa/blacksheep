@@ -42,6 +42,9 @@ def check_command(command):
         animals.pyprogram_bs()
     if program == "v":
         voice.voice_recognizer()
+    if program == "c":
+        text = voice.voice_recognizer_neo()
+        animals.parrot(text)
     if program == "l":
         clear = lambda: os.system('cls')
         clear()
