@@ -1,0 +1,15 @@
+
+
+Installation:
+
+- Win11
+- windows shortcut config
+- Chrome
+- Lightshot
+- Git
+- blacksheep
+- Pycharm
+- pycharm settings (shortcuts + theme)
+
+
+
