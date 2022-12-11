@@ -27,6 +27,12 @@ class Vector:
     #     # What happens when is type cast the Vector into sting.
     #     return "This is a vector!"
 
+    def __len__(self):
+        return 10
+
+    def __call__(self, *args, **kwargs):
+        print("Hello, I was called!")
+
 
 v1 = Vector(10, 20)
 v2 = Vector(50, 60)
@@ -38,3 +44,8 @@ v3 = v1 + v2
 print(v3)
 print(v3.x)
 print(v3.y)
+
+
+print(f"Len: {len(v3)}")
+
+v3()
