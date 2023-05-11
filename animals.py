@@ -1,6 +1,5 @@
 import os
 import time
-import screenshot
 import neo
 from voice import speaker
 
@@ -48,10 +47,10 @@ def cat():
     ((,.-'   ((,/
     """
     )
-    open_pycharm()
+    # open_pycharm()
     # open_forticlient()
-    open_docker()
-    open_dbeaver()
+    # open_docker()
+    # open_dbeaver()
 
 
 def shutdown():
@@ -73,7 +72,7 @@ def monkey():
     print("""-={ see no evil }={ hear no evil }={ speak no evil }={ have no fun }=-""")
     print("""-={ see no evil }={ hear no evil }={ speak no evil }={ have no fun }=-""")
     # screenshot.pil_screenshot()
-    screenshot.pil_snapshot()
+    # screenshot.pil_snapshot()
 
 
 def clean():

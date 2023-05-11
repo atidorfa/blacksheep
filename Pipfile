@@ -53,6 +53,7 @@ torch = "*"
 torchvision = "*"
 torchaudio = "*"
 transformers = "*"
+urllib3 = "<=1.26.15"
 
 [dev-packages]
 
