@@ -50,5 +50,7 @@ Los archivos que se encargan de esto son:
 - .pre-commit-config.yaml
 - pyproject.toml
 
+Se usa black como formateador de codigo
+
 ## README.md
 [Como escribir un README.md](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
