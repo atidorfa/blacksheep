@@ -32,14 +32,14 @@ def check_command(command):
         web.open_notion()
     if program == "fit":
         web.open_fitness()
-    if program == "bs":
+    if program == "]":
         animals.bs()
-    if program == "cat":
+    if program == "[":
         animals.cat()
     if program == "m":
         animals.monkey()
-    if program == "prgm":
-        animals.pyprogram_bs()
+    if program == "ps":
+        animals.python_script()
     if program == "v":
         voice.voice_recognizer()
     if program == "c":

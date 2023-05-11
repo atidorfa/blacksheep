@@ -81,9 +81,10 @@ def clean():
     print('LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL')
 
 
-def pyprogram_bs():
-    os.system("python")
+def python_script():
     # will open a new python window ...
+    os.system("python")
+
     # raw_input("Enter Equation:")  # check this bug is very interesting
     input("Enter Equation:")
 
