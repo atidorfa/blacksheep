@@ -1,5 +1,8 @@
 import typer
 
+
+# GOD IS A PROGRAM
+# AGUANTE BOQUITA
 # app god
 app = typer.Typer()
 
