@@ -1,5 +1,7 @@
 import typer
 
+
+# GOD IS A PROGRAM
 # app god
 app = typer.Typer()
 
